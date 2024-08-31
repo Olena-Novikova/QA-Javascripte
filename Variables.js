@@ -56,10 +56,11 @@ console.log(step1,`\n`,step2,`\n`,step3,`\n`,step4,`\n`,step5,`\n`,orderPrice,`\
 
 //Practice
 
-let age, city;
+let name1, age, city;
+name1 = "Olena";
 age = 37;
 city = `Praha`;
-console.log(age, city); //37 Praha
+console.log(name1, age, city); //37 Praha
 
 let favoriteColor, favoriteFood;
 favoriteColor = `pink`;
@@ -81,3 +82,23 @@ let age1 = 25;
 let greetings = `Hello, my name is ${firstName1} ${lastName1}, I am ${age1}`;
 console.log(greetings);
 
+let f = "Good morning";
+let g = 5;
+let h = true;
+let q = null;
+console.log(f, typeof f, g, typeof g, h, typeof h, q, typeof q);//Good morning string 5 number true boolean null object
+
+//lenght
+let phrase = "Hello world!";
+let space = " ";
+
+console.log(phrase, phrase.length);//Hello world! 12
+console.log(space, space.length);// 1
+
+//index
+console.log(phrase[4]);//o
+console.log(phrase[11]);//!
+
+//string formatting
+console.log(phrase, phrase.toLowerCase());//Hello world! hello world!
+console.log(phrase, phrase.toUpperCase());//Hello world! HELLO WORLD!
