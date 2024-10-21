@@ -53,6 +53,21 @@ let orderPrice = `The order price is ${price}$`;
 let resalt = `Enjoy your coffee!`;
 console.log(step1,`\n`,step2,`\n`,step3,`\n`,step4,`\n`,step5,`\n`,orderPrice,`\n`,resalt)
 
+// Make a coffee
+let coffee, cup, milk, sugar, spoon, water
+coffee = 'ground coffee'
+cup = '250 ml coffee cup'
+milk = '100 mi of oat milk'
+sugar = 'brown sugar'
+spoon = 'teaspoon'
+water = '150 ml of boiling water'
+console.log(`1. Take 1 ${spoon} of ${coffee}`)
+console.log(`2. Put 1 ${spoon} of ${coffee} in the ${cup}`)
+console.log(`3. Put  ${water} in the ${cup}`)
+console.log(`4. Put  ${milk} in the ${cup}`)
+console.log(`5. Put 1 ${spoon} of ${sugar} in the ${cup}`)
+console.log(`6. Take the ${spoon}, put it in the ${cup} and stir the coffee \nEnjoy`)
+
 
 //Practice
 
